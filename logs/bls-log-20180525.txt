@@ -1,0 +1,35 @@
+
+************************* - 2018-05-25 09:09:16
+Request:
+{"pfToken":"67be490a96c24172a0532d1d02690c567009efdff7e6b2667bc01ceadce47f8c_","amount":"44","currency":"USD","recurringTransaction":"ECOMMERCE","cardTransactionType":"AUTH_CAPTURE","transactionFraudInfo":{"fraudSessionId":"f6733b434cfadd9885aa8657b1109edc"}}
+Response:
+{"cardTransactionType":"AUTH_CAPTURE","transactionId":"1016626073","recurringTransaction":"ECOMMERCE","softDescriptor":"BLS&#x2a;Starpoint","amount":44,"currency":"USD","vaultedShopperId":22638719,"creditCard":{"cardLastFourDigits":"9299","cardType":"VISA","cardSubType":"CREDIT","cardCategory":"GOLD"},"processingInfo":{"processingStatus":"success","cvvResponseCode":"ND","avsResponseCodeZip":"U","avsResponseCodeAddress":"U","avsResponseCodeName":"U"}}
+*************************
+
+************************* - 2018-05-25 09:15:28
+Request:
+{"pfToken":"a6ebe1cc8340bfc24f05dff8962329e9f9f478289381a8ed24f62d858f5fad09_","amount":"44","currency":"USD","recurringTransaction":"ECOMMERCE","cardTransactionType":"AUTH_CAPTURE","transactionFraudInfo":{"fraudSessionId":"353a2c840ed2fce1765a8a80128ba44f"}}
+Response:
+{"message":[{"errorName":"INCORRECT_INFORMATION","code":"14002","description":"Transaction failed  because of payment processing failure.: 430285 - Authorization has failed for this transaction. Please try again or contact your bank for assistance"}]}
+*************************
+
+************************* - 2018-05-25 09:15:59
+Request:
+{"pfToken":"a6ebe1cc8340bfc24f05dff8962329e9f9f478289381a8ed24f62d858f5fad09_","amount":"44","currency":"USD","recurringTransaction":"ECOMMERCE","cardTransactionType":"AUTH_CAPTURE","transactionFraudInfo":{"fraudSessionId":"353a2c840ed2fce1765a8a80128ba44f"}}
+Response:
+{"cardTransactionType":"AUTH_CAPTURE","transactionId":"1016626083","recurringTransaction":"ECOMMERCE","softDescriptor":"BLS&#x2a;Starpoint","amount":44,"currency":"USD","vaultedShopperId":22638723,"creditCard":{"cardLastFourDigits":"9299","cardType":"VISA","cardSubType":"CREDIT","cardCategory":"GOLD"},"processingInfo":{"processingStatus":"success","cvvResponseCode":"ND","avsResponseCodeZip":"U","avsResponseCodeAddress":"U","avsResponseCodeName":"U"}}
+*************************
+
+************************* - 2018-05-25 09:18:55
+Request:
+{"pfToken":"b301ff9f76493a3d5f26571e7e8c088ca9db61e3ad70187d9f24e5329b8423e5_","amount":"44","currency":"USD","recurringTransaction":"ECOMMERCE","cardTransactionType":"AUTH_CAPTURE","transactionFraudInfo":{"fraudSessionId":"9a7f83642dd3e86872b2e333e6e41d42"}}
+Response:
+{"cardTransactionType":"AUTH_CAPTURE","transactionId":"1016626089","recurringTransaction":"ECOMMERCE","softDescriptor":"BLS&#x2a;Starpoint","amount":44,"currency":"USD","vaultedShopperId":22638727,"creditCard":{"cardLastFourDigits":"9299","cardType":"VISA","cardSubType":"CREDIT","cardCategory":"GOLD"},"processingInfo":{"processingStatus":"success","cvvResponseCode":"ND","avsResponseCodeZip":"U","avsResponseCodeAddress":"U","avsResponseCodeName":"U"}}
+*************************
+
+************************* - 2018-05-25 09:27:39
+Request:
+{"pfToken":"5b244b47c44f07bf0ab37f0a90b163f827cfc3e2aae29060807f36dc7c03b971_","amount":"44","currency":"USD","recurringTransaction":"ECOMMERCE","cardTransactionType":"AUTH_CAPTURE","transactionFraudInfo":{"fraudSessionId":"674674454f68763a9379e9587757e0c7"}}
+Response:
+{"cardTransactionType":"AUTH_CAPTURE","transactionId":"1016626307","recurringTransaction":"ECOMMERCE","softDescriptor":"BLS&#x2a;Starpoint","amount":44,"currency":"USD","vaultedShopperId":22638735,"creditCard":{"cardLastFourDigits":"9299","cardType":"VISA","cardSubType":"CREDIT","cardCategory":"GOLD"},"processingInfo":{"processingStatus":"success","cvvResponseCode":"ND","avsResponseCodeZip":"U","avsResponseCodeAddress":"U","avsResponseCodeName":"U"}}
+*************************
